@@ -1,0 +1,25 @@
+.posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.post {
+    background: yellow ;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+    transition: transform 0.1s ease-in-out;
+}
+
+.post:hover {
+    transform: scale(1.02);
+}
+
+.post-content {
+    padding: 10px;
+}
+
+.post img {
+    border-radius: 10px 10px 0 0;
+    max-width: 100%;
+}
